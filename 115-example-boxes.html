@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+    
+    <style>
+        body{
+            background-color: darkgreen;
+            color: white;
+        }
+        
+        .pagina{
+            background-color: green;
+            border: double 5px white;
+            margin: 5px auto 5px auto;
+            max-width: 960px;
+            min-width: 640px;
+            height: 100%;
+            width: 100%;
+        }
+        
+        .logo{
+            border-bottom: solid 1px;
+            margin: 0 10px ;
+        }
+        
+        .logo img{
+            display: block;
+            margin: 10px auto 10px auto;
+            border-radius: 80px 50px;
+        }
+        
+        .nav{
+            border-bottom: solid 2px;
+            margin: 10px  10px ;
+            margin: 10px ;
+        }
+        
+        .nav ul{
+            margin: 10px auto;
+        }
+        
+        .nav li{
+            display: inline;
+            font-family: Georgia;
+            margin-left: 10.5%;
+        }
+        
+        .nav li a{
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        
+        .images{
+            display: block;
+            margin-left: 20%;
+        }
+        
+        img{
+            height: 200px;
+            margin-right: -5px;
+        }
+        
+        #description{
+            font-size: 25px;
+            font-family: monospace;
+            text-align: center;
+        }
+        
+        #active{
+            color: chartreuse;
+        }
+            
+    </style>
+    
+  </head>
+  <body>
+    <div class="pagina">
+       
+        <div class="logo">
+            <img src="images/classic.png" alt="">
+        </div>
+        
+        <div class="nav">
+            <ul>
+                <li><a href="" id="active">Home</a></li>
+                <li><a href="">Loja</a></li>
+                <li><a href="">Compras</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="">Contato</a></li>
+            </ul>
+        </div>
+        
+        <div class="main">
+            <div class="images">
+                <img src="images/2011home.jpg" alt="">
+                <img src="images/2012arena.jpg" alt="">
+                <img src="images/2015gkblack.jpg" alt="">
+            </div>
+            
+            <p id="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, quasi perspiciatis voluptatibus officia. Vero numquam qui sapiente dicta suscipit tempora ut cum iste, corrupti error eaque, dignissimos quos dolores eligendi.
+            </p>
+            
+        </div>    
+        
+        
+        
+    </div>
+  </body>
+</html>

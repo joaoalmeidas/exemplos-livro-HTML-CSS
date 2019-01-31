@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Título da página</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form action="http://www.example.com/login.php" method="post">
+        <fieldset>
+            <legend>Os seu dados:</legend>
+            
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome">
+            <br>
+            
+            <label for="email">Email: </label>
+            <input type="email" name="email">
+            <br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>A sua avaliação:</legend>
+            
+            <label for="pesquisa">Onde você nos conheceu?</label>
+            <select name="pesquisa" id="">
+                <option value="google">Google</option>
+                <option value="yahoo">Yahoo</option>
+                <option value="bing">Bing</option>
+            </select>
+            
+            <label>
+                <p>Você nos visitaria novamente?</p>
+                
+                <input type="radio" value="sim" name="visita">
+                <label for="sim">Sim </label>
+                
+                <input type="radio" value="nao" name="visita">
+                <label for="nao">Não </label>
+                
+                <input type="radio" value="talvez" name="visita">
+                <label for="talvez">Talvez </label>
+                <br><br>
+            </label>
+            
+            <p>Comentários:</p>
+            <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+            <br>
+            
+            <input type="checkbox" name="email" value="sim">
+            <label for="email">Desejo receber notícias por email.</label>
+            <br>
+            
+            <input type="submit" value="Enviar" name="enviar">
+            
+            
+        </fieldset>
+    </form>
+  </body>
+</html>
